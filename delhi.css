@@ -1,0 +1,201 @@
+.body{
+    height: 100%;
+    
+    background-color:black;
+    
+}
+.navbar{
+    background-color: rgb(182, 25, 182);
+    border-radius: 25px;
+    color: rgba(105, 47, 0, 1); 
+}
+h3{
+    display: flex;
+    margin: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 3em;
+    background: url('shubham-rohilla-f6Zwrb9xDhk-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 3em;
+    border-radius: 20px;
+    color:violet;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.content > #h{
+    color: white;
+    border: 2px solid white;
+    background-color: rgb(182, 25, 182);
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.content > #h2{
+  color: white;
+  border: 2px solid white;
+  background-color: rgb(182, 25, 182);
+  margin: 10px;
+  padding: 10px;
+
+}
+
+.flex-container{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+  
+}
+
+ 
+.flex-container > div.polaroid {
+    /* border: 2px solid violet; */
+    
+    
+    width: 250px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 violet, 0 6px 20px 0 violet;
+    margin-bottom: 25px;
+    margin: 10px;
+    
+  }
+  .polaroid img{
+      width: 250px;
+      height: 200px;
+      
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+  .button {
+
+    background-color:black;
+    border: 5px solid violet;
+   color: white;
+   padding: 16px 32px;
+   text-align: center;
+   font-size: 16px;
+   margin: 4px 2px;
+   transition: 0.3s;
+   border-radius: 10px;
+   
+  }
+  .button1:hover {
+    background-color: violet;
+    border: 5px solid black;
+    border-radius: 10px;
+
+
+    color: black;
+  } 
+ #form{
+    display: flex;
+    justify-content: center;
+   
+    color: white;
+    
+
+ }
+#form > div.select{
+    margin: 10px;
+    padding: 10px;
+}
+ 
+input[type=date], select{
+  
+    color: white;
+    background-color: black;
+}
+
+.imp{
+  border: 2px dashed violet;
+  
+}
+.grid-container{
+  display: grid;
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
+.container1 {
+  
+  
+ 
+  
+  border-radius: 10px;
+  padding: 20px 40px 40px;
+  max-width: 800px;
+  height: 270px;
+  background-color: white;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px 0 violet, 0 6px 20px 0 violet;
+  
+
+  display: flex;}
+  .container__image1 {
+    margin: 20px 30px 0 0;
+    width: 200px;
+    object-fit: contain;
+    align-self: flex-start;
+  }
+  .container__text1 {
+    flex: 1 1 auto;
+    color: black;
+  }
+
+  @media only screen and (min-width:600px){
+    #footer{
+        background-color: rgb(182, 25, 182);
+        display: flex;
+        flex-direction: row;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #flex-left{
+        padding:10px;
+    }
+
+    #flex-middle{
+        flex: 25%;
+        border-left: 2px solid white;
+        padding: 10px;
+    }
+
+    #flex-right{
+        flex: 50%;
+        border-left: 2px solid white;
+        padding:10px;
+    }
+} 
+
+@media only screen and (max-width:600px){
+    #footer{
+        background-color: rgb(182, 25, 182);
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+    }
+
+    #flex-left ul{
+        list-style-type: none;
+        text-decoration: underline;
+    }
+}

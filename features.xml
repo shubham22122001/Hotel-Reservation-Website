@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="features.xsl" ?>
+
+<pack >
+  <city>
+    <package>Deluxe</package>
+    <activity>Indoor only</activity>
+    <occupency>Only_double</occupency>
+    
+
+  </city>
+  <city>
+    <package>Super deluxe</package>
+    <activity>Indoor only</activity>
+    <occupency>Double/Triple</occupency>
+    
+  </city>
+  <city>
+    <package>Ultra</package>
+    <activity>Outdoor Only</activity>
+    <occupency>Double/Triple</occupency>
+  
+  </city>
+  <city>
+    <package>Kings Cottage</package>
+    <activity>Both Indoor and Outdoor</activity>
+    <occupency>7-8 people</occupency>
+  
+  </city>
+  <city>
+
+    <package>Penthouse</package>
+    <activity>Both Indoor and Outdoor</activity>
+    <occupency>14-15 pepople</occupency>
+  
+  </city>
+
+  
+</pack>

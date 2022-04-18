@@ -1,0 +1,85 @@
+.body{
+    height: 100%;
+    
+    background-color:black;
+    
+}
+.navbar{
+    background-color: rgb(182, 25, 182);
+    border-radius: 25px;
+    color: rgba(105, 47, 0, 1); 
+}
+#form{
+    position: relative;
+    left: 300px;
+    
+    width: 700px;
+    border: 5px solid violet ;
+    border-radius: 10px;
+    text-align: center;
+    color: violet;
+    background-color: black;
+    font-size: medium;
+    
+
+}
+.head1{
+    text-align: center;
+    color: violet;
+}
+@media only screen and (min-width:600px){
+    #footer{
+        background-color: rgb(182, 25, 182);
+        display: flex;
+        flex-direction: row;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #flex-left{
+        padding:10px;
+    }
+
+    #flex-middle{
+        flex: 25%;
+        border-left: 2px solid white;
+        padding: 10px;
+    }
+
+    #flex-right{
+        flex: 50%;
+        border-left: 2px solid white;
+        padding:10px;
+    }
+} 
+
+@media only screen and (max-width:600px){
+    #footer{
+        background-color: rgb(182, 25, 182);
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+    }
+
+    #flex-left ul{
+        list-style-type: none;
+        text-decoration: underline;
+    }
+}
+#submit{
+    background-color: violet;
+}
+#reset{
+    background-color: violet;
+}
+input[type=text], input[type=email],input[type=date],input[type=checkbox],select,input[type=password]{
+    color: white;
+    background-color: black;
+}
+
+
